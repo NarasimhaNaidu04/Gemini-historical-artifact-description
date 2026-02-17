@@ -72,7 +72,7 @@ ai-blog-generator/
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
-└── .env   (Not uploaded to GitHub)
+└── .env
 🔐 Environment Setup
 1️⃣ Clone the Repository
 git clone https://github.com/YOUR_USERNAME/ai-blog-generator.git
@@ -86,7 +86,6 @@ pip install -r requirements.txt
 Create a .env file in the root folder:
 
 GEMINI_API_KEY=your_api_key_here
-⚠️ Do NOT upload .env to GitHub.
 
 5️⃣ Run the Application
 streamlit run app.py
